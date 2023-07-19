@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ChaningSuite">
+  <test thread-count="5" name="ChaningTest">
+    <classes>
+      <class name="chaining.DeleteUser"/>
+      <class name="chaining.CreateUser"/>
+    </classes>
+  </test> <!-- ChaningTest -->
+</suite> <!-- ChaningSuite -->
